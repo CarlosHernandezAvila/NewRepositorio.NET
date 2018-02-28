@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Pagina_Maestro.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="WebApplication_Repositorio_VSNet._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Pagina_Maestro.Master" AutoEventWireup="true" CodeBehind="InicioWebSite.aspx.cs" Inherits="WebApplication_Repositorio_VSNet._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 

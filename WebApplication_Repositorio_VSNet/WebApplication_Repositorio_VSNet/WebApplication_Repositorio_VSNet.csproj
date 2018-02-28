@@ -158,12 +158,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Nosotros.aspx" />
-    <Content Include="Contactos.aspx" />
+    <Content Include="NosotrosWeb.aspx" />
+    <Content Include="ContactosWeb.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Inicio.aspx" />
+    <Content Include="InicioWebSite.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -213,28 +213,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="Nosotros.aspx.cs">
-      <DependentUpon>Nosotros.aspx</DependentUpon>
+    <Compile Include="NosotrosWeb.aspx.cs">
+      <DependentUpon>NosotrosWeb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Nosotros.aspx.designer.cs">
-      <DependentUpon>Nosotros.aspx</DependentUpon>
+    <Compile Include="NosotrosWeb.aspx.designer.cs">
+      <DependentUpon>NosotrosWeb.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Contactos.aspx.cs">
-      <DependentUpon>Contactos.aspx</DependentUpon>
+    <Compile Include="ContactosWeb.aspx.cs">
+      <DependentUpon>ContactosWeb.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contactos.aspx.designer.cs">
-      <DependentUpon>Contactos.aspx</DependentUpon>
+    <Compile Include="ContactosWeb.aspx.designer.cs">
+      <DependentUpon>ContactosWeb.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Inicio.aspx.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="InicioWebSite.aspx.cs">
+      <DependentUpon>InicioWebSite.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Inicio.aspx.designer.cs">
-      <DependentUpon>Inicio.aspx</DependentUpon>
+    <Compile Include="InicioWebSite.aspx.designer.cs">
+      <DependentUpon>InicioWebSite.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
