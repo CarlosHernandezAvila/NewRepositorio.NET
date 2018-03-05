@@ -158,8 +158,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NosotrosWeb.aspx" />
-    <Content Include="ContactosWeb.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -213,22 +211,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="NosotrosWeb.aspx.cs">
-      <DependentUpon>NosotrosWeb.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NosotrosWeb.aspx.designer.cs">
-      <DependentUpon>NosotrosWeb.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="ContactosWeb.aspx.cs">
-      <DependentUpon>ContactosWeb.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ContactosWeb.aspx.designer.cs">
-      <DependentUpon>ContactosWeb.aspx</DependentUpon>
-    </Compile>
     <Compile Include="InicioWebSite.aspx.cs">
       <DependentUpon>InicioWebSite.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
